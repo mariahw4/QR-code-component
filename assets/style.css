@@ -27,6 +27,7 @@ main{
     padding: 1rem;
     border-radius: 24px;
     width: 25%;
+    min-width: 300px;
     text-align: center;
     align-self: center;
 } 
@@ -58,7 +59,7 @@ main{
     color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (max-device-width: 375px) {
+@media screen and (max-width: 375px) {
  .container-item {
     width: 90%;
  }
